@@ -74,71 +74,71 @@ public class BMI {
         return result;
     }
 //
-//    public static void main(String[] args){
-//        // 方案2：通过main函数，由脚本自行设置体重和身高
-//        // 创建被测对象，调用被测方法，并自行校验结果，判断测试结果，缺陷输出到屏幕
-//        //1.创建被测对象，设置体重和身高
-//        BMI test = new BMI(45.0, 1.6);
-//
-//        //2.调用被测方法
-//        String result = test.getBMIType();
-//
-//        //3.校验结果，判断测试结果
-//        String expect = "偏瘦";
-//        String output = "";
-//        if(expect==result){
-//            output += "PASS.";
-//        }else{
-//            output += "FAIL. 体重：45.0，身高：1.6，预期：" + expect
-//            + "，实际返回：" + result;
-//        }
-//
-//        //4.如有缺陷，输出到屏幕
-//        System.out.println(output);
-//        test = null;
-//
-//        // 测试用例2:55.0,1.6
-//        test = new BMI(55.0, 1.6);
-//        result = test.getBMIType();
-//        expect = "正常";
-//        output = "";
-//        if(expect == result){
-//            output += "PASS.";
-//        }else{
-//            output += "FAIL. 体重：55.0，身高：1.6，预期：" + expect
-//                    + "，实际返回：" + result;
-//        }
-//        System.out.println(output);
-//        test = null;
-//
-//        // 测试用例3：68.0, 1.6
-//        test = new BMI(68.0, 1.6);
-//        result = test.getBMIType();
-//        expect = "偏胖";
-//        output = "";
-//        if(expect == result){
-//            output += "PASS.";
-//        }else{
-//            output += "FAIL. 体重：55.0，身高：1.6，预期：" + expect
-//                    + "，实际返回：" + result;
-//        }
-//        System.out.println(output);
-//        test = null;
-//
-//        // 测试用例4：80.0,1.6
-//        test = new BMI(80.0, 1.6);
-//        result = test.getBMIType();
-//        expect = "肥胖";
-//        output = "";
-//        if(expect == result){
-//            output += "PASS.";
-//        }else{
-//            output += "FAIL. 体重：55.0，身高：1.6，预期：" + expect
-//                    + "，实际返回：" + result;
-//        }
-//        System.out.println(output);
-//        test = null;
-//
+    public static void main(String[] args){
+        // 方案2：通过main函数，由脚本自行设置体重和身高
+        // 创建被测对象，调用被测方法，并自行校验结果，判断测试结果，缺陷输出到屏幕
+        //1.创建被测对象，设置体重和身高
+        BMI test = new BMI(45.0, 1.6);
+
+        //2.调用被测方法
+        String result = test.getBMIType();
+
+        //3.校验结果，判断测试结果
+        String expect = "偏瘦";
+        String output = "";
+        if(expect==result){
+            output += "PASS.";
+        }else{
+            output += "FAIL. 体重：45.0，身高：1.6，预期：" + expect
+            + "，实际返回：" + result;
+        }
+
+        //4.如有缺陷，输出到屏幕
+        System.out.println(output);
+        test = null;
+
+        // 测试用例2:55.0,1.6
+        test = new BMI(55.0, 1.6);
+        result = test.getBMIType();
+        expect = "正常";
+        output = "";
+        if(expect == result){
+            output += "PASS.";
+        }else{
+            output += "FAIL. 体重：55.0，身高：1.6，预期：" + expect
+                    + "，实际返回：" + result;
+        }
+        System.out.println(output);
+        test = null;
+
+        // 测试用例3：68.0, 1.6
+        test = new BMI(68.0, 1.6);
+        result = test.getBMIType();
+        expect = "偏胖";
+        output = "";
+        if(expect == result){
+            output += "PASS.";
+        }else{
+            output += "FAIL. 体重：55.0，身高：1.6，预期：" + expect
+                    + "，实际返回：" + result;
+        }
+        System.out.println(output);
+        test = null;
+
+        // 测试用例4：80.0,1.6
+        test = new BMI(80.0, 1.6);
+        result = test.getBMIType();
+        expect = "肥胖";
+        output = "";
+        if(expect == result){
+            output += "PASS.";
+        }else{
+            output += "FAIL. 体重：55.0，身高：1.6，预期：" + expect
+                    + "，实际返回：" + result;
+        }
+        System.out.println(output);
+        test = null;
+
 //
 //
 //
@@ -161,7 +161,7 @@ public class BMI {
 ////
 ////        //4.结果输出到屏幕
 ////        System.out.println(result);
-//    }
+    }
 
 
 }
