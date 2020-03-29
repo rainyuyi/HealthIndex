@@ -139,28 +139,26 @@ public class BMI {
         System.out.println(output);
         test = null;
 
-//
-//
-//
-////        // 方案1：通过main函数，从外部输入体重和身高，创建被测对象，调用被测方法，结果输出到屏幕
-////        //1.输入体重和身高
-////        Scanner sc = new Scanner(System.in);
-////        double w = 0.0;
-////        double h = 0.0;
-////        System.out.println("请输入体重和身高，以等号结束：");
-////        while (sc.hasNextDouble()){
-////            w = sc.nextDouble();
-////            h = sc.nextDouble();
-////        }
-////
-////        //2.创建被测对象
-////        BMI test = new BMI(w, h);
-////
-////        //3.调用被测方法
-////        String result = test.getBMIType();
-////
-////        //4.结果输出到屏幕
-////        System.out.println(result);
+
+       // 方案1：通过main函数，从外部输入体重和身高，创建被测对象，调用被测方法，结果输出到屏幕
+       //1.输入体重和身高
+       Scanner sc = new Scanner(System.in);
+       double w = 0.0;
+       double h = 0.0;
+       System.out.println("请输入体重和身高，以等号结束：");
+       while (sc.hasNextDouble()){
+           w = sc.nextDouble();
+           h = sc.nextDouble();
+       }
+
+       //2.创建被测对象
+       BMI test = new BMI(w, h);
+
+       //3.调用被测方法
+       String result = test.getBMIType();
+
+       //4.结果输出到屏幕
+       System.out.println(result);
     }
 
 
