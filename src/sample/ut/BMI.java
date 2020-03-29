@@ -152,13 +152,13 @@ public class BMI {
        }
 
        //2.创建被测对象
-       BMI test = new BMI(w, h);
+       BMI test1 = new BMI(w, h);
 
        //3.调用被测方法
-       String result = test.getBMIType();
+       String result1 = test1.getBMIType();
 
        //4.结果输出到屏幕
-       System.out.println(result);
+       System.out.println(result1);
     }
 
 
